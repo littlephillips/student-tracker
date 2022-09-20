@@ -1,3 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.nav-prime{
+  background: rgb(128, 128, 128); 
+}
+.nav-prime,.nav-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-content{
+  width: 50%;
+}
+.nav-content > h1{
+  color: #fff;
+}
+.nav-menu{
+  color: rgb(7, 7, 250);
+  font-size: 20px;
+}
+
+table th, td {
+  border: 2px solid #000;
+
+}
+
+
+
+
+
+
+
+
+
+/* 
 .App {
   text-align: center;
 }
@@ -35,4 +72,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
